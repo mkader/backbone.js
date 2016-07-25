@@ -1,27 +1,3 @@
-<!--
-Health Tracker Project
-Project Overview
-single page app that tracks the user's calorie intake, and optionally, other health-related metrics.
-Typing food names into the search field will display a list of matching foods as provided by the health API. Users will be able to select an item from the list, and the item will be added to the list of foods the user is tracking. The total calorie count will also update to reflect the new daily total.
-
-How will I complete this Project?
-This project was designed as an optional part of the Front-End Nanodegree to round out a Nanodegree student's project portfolio. In the Nanodegree, it's expected that students have already completed the JavaSript Design Patterns course, and rely on that knowledge for this project as well. However, there's no reason you can't build this on your own. In fact, you're encouraged to! Check out the JavaSript Design Patterns course and follow the steps below to build your own health tracker app using your newly acquired Backbone knowledge.
-
-Write code required to get a project started.
-Implement search bar functionality to the application.
-Write code required to query a health API when the user searches, and return the results in a list (Nutritionix has a good one).
-Add functionality to add an item to the data store when clicked.
-Write code required to show the items in the data store, and to display the total number of calories.
-
-
-https://developer.nutritionix.com/docs/v1_1
-
-https://api.nutritionix.com/v1_1/search/cheddar%20cheese?fields=item_name%2Citem_id%2Cbrand_name%2Cnf_calories%2Cnf_total_fat&appId=893c1242&appKey=7d079e3fb37bf773618916953f561b82
-
-https://api.nutritionix.com/v1_1/search/cheddar%20cheese?appId=893c1242&appKey=7d079e3fb37bf773618916953f561b82
--->
-
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -51,13 +27,9 @@ https://api.nutritionix.com/v1_1/search/cheddar%20cheese?appId=893c1242&appKey=7
 
 		<!-- JavaScript Includes -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/json2/20150503/json2.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/json2/20150503/json2.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone-min.js"></script>
-		<script src="/bbjs/health.js"></script>
-		<!--
-		<script src="https://firebasestorage.googleapis.com/v0/b/backbone-health-tracker.appspot.com/o/script.js?alt=media&token=41064f0e-0a36-4754-b9a9-a070f2f95e0e"></script>
-		-->
-
+		<script src="health.js"></script>
     </body>
 </html>
